@@ -27,7 +27,8 @@ Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
    
    REQUIRED ARGUMENTS
    
-   File summarizing input libraries
+   File summarizing input libraries. See [example file](sample_config_files/input_libraries_file.txt)
+
    
          --libraries_file
          A tab-delimited text file that provides output name, R1 fastq file,
@@ -35,7 +36,6 @@ Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
          seq file. See sample template (make sure new line characters can be 
          parsed by Perl in a UNIX environment).
 
-         See [example file](sample_config_files/input_libraries_file.txt)
 
 
 
