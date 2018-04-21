@@ -27,7 +27,7 @@ Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
    
    REQUIRED ARGUMENTS
    
-   File summarizing input libraries. See [example file](sample_config_files/input_libraries_file.txt)
+   File summarizing input libraries. See [example file](sample_config_files/input_libraries_file.txt).
 
    
          --libraries_file
@@ -41,14 +41,12 @@ Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
 
    OPTIONAL ARGUMENTS (no defaults)
 
-   File providing non-default options for each of the three processing scripts
+   File providing non-default options for each of the three processing scripts. See [example file](sample_config_files/options.txt)
 
          --options_file      
          A tab-delimited text file. First column is "reads", "families", 
          or "variants" to indicate the which script the option applies to.
          The second column is the option. See sample template.
-
-         See [example file](sample_config_files/options.txt)
 
 
    Scripts paths/names 
@@ -90,13 +88,11 @@ Usage: perl MDS_process_reads.pl [options/arguments]
          File containing Illumina read 1 MDS sequences (raw sequences). Can 
          be gzipped.
 
-   MDS Marker Information File
+   MDS Marker Information File.  See [example file](sample_config_files/MDS_markers.txt).
    
          --marker_info_file
          A tab-delimited text file that reports marker names, primers, and 
          reference sequences
-
-         See [example file](sample_config_files/MDS_markers.txt)
 
 
    OPTIONAL ARGUMENTS
@@ -312,13 +308,11 @@ Usage: perl MDS_process_variants.pl [options/arguments]
          --input
          Read fams output text file from MDS_process_families.pl
 
-   MDS Marker Information File
+   MDS Marker Information File. See [example file](sample_config_files/MDS_markers.txt)
    
          --marker_info_file
          A tab-delimited text file that reports marker names, primers, and 
          reference sequences
-
-         See [example file](sample_config_files/MDS_markers.txt)
 
 
    OPTIONAL ARGUMENTS
