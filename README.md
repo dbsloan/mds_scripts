@@ -20,7 +20,7 @@ For processing multiple libraries in batches, the following wrapper script can b
 
 ## MDS_process_pipeline.pl
 
-Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
+Usage: `perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE`
    
    This is a wrapper script that calls a series for three scripts to process
    MDS datasets.
@@ -73,7 +73,7 @@ Usage: perl MDS_process_pipeline.pl [options] --libraries_file=INPUT_FILE
 
 ## MDS_process_reads.pl
 
-Usage: perl MDS_process_reads.pl [options/arguments]
+Usage: `perl MDS_process_reads.pl [options/arguments]`
    
    This script takes raw MDS Illumina fastq input files and returns a primer-
    trimmed fastq with the MDS barcode added to the header of each read 
@@ -235,7 +235,7 @@ Usage: perl MDS_process_reads.pl [options/arguments]
 ## MDS_process_families.pl
 
 
-Usage: perl MDS_process_families.pl [options/arguments]
+Usage: `perl MDS_process_families.pl [options/arguments]`
    
    This script takes the trimmed fastq file from MDS_process_reads.pl and
    summarizes read families output in a tab delimited text file 
@@ -296,7 +296,7 @@ Usage: perl MDS_process_families.pl [options/arguments]
 
 ## MDS_process_variants.pl
 
-Usage: perl MDS_process_variants.pl [options/arguments]
+Usage: `perl MDS_process_variants.pl [options/arguments]`
    
    This script takes the read fams text file from MDS_process_families.pl and
    summarizes variant calls.
