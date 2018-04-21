@@ -1,0 +1,67 @@
+OutputName	Read1_Fastq	Read2_Fastq(Optional)	Marker_File	Marker_Name(Optional)	Filter_Seq_File(Optional)
+E1_cp1_R_A	E1_cp1_R_A_S37_R1_001.fastq.gz	E1_cp1_R_A_S37_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp1_R_B	E1_cp1_R_B_S49_R1_001.fastq.gz	E1_cp1_R_B_S49_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp1_R_C	E1_cp1_R_C_S61_R1_001.fastq.gz	E1_cp1_R_C_S61_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp1_U_A	E1_cp1_U_A_S38_R1_001.fastq.gz	E1_cp1_U_A_S38_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp1_U_B	E1_cp1_U_B_S50_R1_001.fastq.gz	E1_cp1_U_B_S50_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp1_U_C	E1_cp1_U_C_S62_R1_001.fastq.gz	E1_cp1_U_C_S62_R2_001.fastq.gz	MDS_markers.txt	At_cp1	NUPT.txt
+E1_cp2_R_A	E1_cp2_R_A_S39_R1_001.fastq.gz	E1_cp2_R_A_S39_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_cp2_R_B	E1_cp2_R_B_S51_R1_001.fastq.gz	E1_cp2_R_B_S51_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_cp2_R_C	E1_cp2_R_C_S63_R1_001.fastq.gz	E1_cp2_R_C_S63_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_cp2_U_A	E1_cp2_U_A_S40_R1_001.fastq.gz	E1_cp2_U_A_S40_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_cp2_U_B	E1_cp2_U_B_S52_R1_001.fastq.gz	E1_cp2_U_B_S52_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_cp2_U_C	E1_cp2_U_C_S64_R1_001.fastq.gz	E1_cp2_U_C_S64_R2_001.fastq.gz	MDS_markers.txt	At_cp2	
+E1_mit1_R_A	E1_mit1_R_A_S33_R1_001.fastq.gz	E1_mit1_R_A_S33_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit1_R_B	E1_mit1_R_B_S45_R1_001.fastq.gz	E1_mit1_R_B_S45_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit1_R_C	E1_mit1_R_C_S57_R1_001.fastq.gz	E1_mit1_R_C_S57_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit1_U_A	E1_mit1_U_A_S34_R1_001.fastq.gz	E1_mit1_U_A_S34_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit1_U_B	E1_mit1_U_B_S46_R1_001.fastq.gz	E1_mit1_U_B_S46_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit1_U_C	E1_mit1_U_C_S58_R1_001.fastq.gz	E1_mit1_U_C_S58_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E1_mit2_R_A	E1_mit2_R_A_S35_R1_001.fastq.gz	E1_mit2_R_A_S35_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_mit2_R_B	E1_mit2_R_B_S47_R1_001.fastq.gz	E1_mit2_R_B_S47_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_mit2_R_C	E1_mit2_R_C_S59_R1_001.fastq.gz	E1_mit2_R_C_S59_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_mit2_U_A	E1_mit2_U_A_S36_R1_001.fastq.gz	E1_mit2_U_A_S36_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_mit2_U_B	E1_mit2_U_B_S48_R1_001.fastq.gz	E1_mit2_U_B_S48_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_mit2_U_C	E1_mit2_U_C_S60_R1_001.fastq.gz	E1_mit2_U_C_S60_R2_001.fastq.gz	MDS_markers.txt	At_mt2	
+E1_nuc1_R_A	E1_nuc1_R_A_S41_R1_001.fastq.gz	E1_nuc1_R_A_S41_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc1_R_B	E1_nuc1_R_B_S53_R1_001.fastq.gz	E1_nuc1_R_B_S53_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc1_R_C	E1_nuc1_R_C_S65_R1_001.fastq.gz	E1_nuc1_R_C_S65_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc1_U_A	E1_nuc1_U_A_S42_R1_001.fastq.gz	E1_nuc1_U_A_S42_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc1_U_B	E1_nuc1_U_B_S54_R1_001.fastq.gz	E1_nuc1_U_B_S54_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc1_U_C	E1_nuc1_U_C_S66_R1_001.fastq.gz	E1_nuc1_U_C_S66_R2_001.fastq.gz	MDS_markers.txt	At_nuc1	
+E1_nuc2_R_A	E1_nuc2_R_A_S43_R1_001.fastq.gz	E1_nuc2_R_A_S43_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E1_nuc2_R_B	E1_nuc2_R_B_S55_R1_001.fastq.gz	E1_nuc2_R_B_S55_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E1_nuc2_R_C	E1_nuc2_R_C_S67_R1_001.fastq.gz	E1_nuc2_R_C_S67_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E1_nuc2_U_A	E1_nuc2_U_A_S44_R1_001.fastq.gz	E1_nuc2_U_A_S44_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E1_nuc2_U_B	E1_nuc2_U_B_S56_R1_001.fastq.gz	E1_nuc2_U_B_S56_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E1_nuc2_U_C	E1_nuc2_U_C_S68_R1_001.fastq.gz	E1_nuc2_U_C_S68_R2_001.fastq.gz	MDS_markers.txt	At_nuc2	
+E2_mit1_B_A1	E2_mit1_B_A1_S72_R1_001.fastq.gz	E2_mit1_B_A1_S72_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_B_B1	E2_mit1_B_B1_S73_R1_001.fastq.gz	E2_mit1_B_B1_S73_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_B_D1	E2_mit1_B_D1_S74_R1_001.fastq.gz	E2_mit1_B_D1_S74_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_F_A1	E2_mit1_F_A1_S75_R1_001.fastq.gz	E2_mit1_F_A1_S75_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_F_B1	E2_mit1_F_B1_S76_R1_001.fastq.gz	E2_mit1_F_B1_S76_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_F_D1	E2_mit1_F_D1_S77_R1_001.fastq.gz	E2_mit1_F_D1_S77_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_L_A1	E2_mit1_L_A1_S78_R1_001.fastq.gz	E2_mit1_L_A1_S78_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_L_B1	E2_mit1_L_B1_S79_R1_001.fastq.gz	E2_mit1_L_B1_S79_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_L_D1	E2_mit1_L_D1_S80_R1_001.fastq.gz	E2_mit1_L_D1_S80_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_U_A1	E2_mit1_U_A1_S69_R1_001.fastq.gz	E2_mit1_U_A1_S69_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_U_B1	E2_mit1_U_B1_S70_R1_001.fastq.gz	E2_mit1_U_B1_S70_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E2_mit1_U_D1	E2_mit1_U_D1_S71_R1_001.fastq.gz	E2_mit1_U_D1_S71_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_R_A2	E3_mit1_C_R_A2_S81_R1_001.fastq.gz	E3_mit1_C_R_A2_S81_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_R_B2	E3_mit1_C_R_B2_S82_R1_001.fastq.gz	E3_mit1_C_R_B2_S82_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_R_C2	E3_mit1_C_R_C2_S83_R1_001.fastq.gz	E3_mit1_C_R_C2_S83_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_U_A2	E3_mit1_C_U_A2_S84_R1_001.fastq.gz	E3_mit1_C_U_A2_S84_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_U_B2	E3_mit1_C_U_B2_S85_R1_001.fastq.gz	E3_mit1_C_U_B2_S85_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_C_U_C2	E3_mit1_C_U_C2_S86_R1_001.fastq.gz	E3_mit1_C_U_C2_S86_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_R_A2	E3_mit1_Q_R_A2_S93_R1_001.fastq.gz	E3_mit1_Q_R_A2_S93_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_R_B2	E3_mit1_Q_R_B2_S94_R1_001.fastq.gz	E3_mit1_Q_R_B2_S94_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_R_C2	E3_mit1_Q_R_C2_S95_R1_001.fastq.gz	E3_mit1_Q_R_C2_S95_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_U_A2	E3_mit1_Q_U_A2_S96_R1_001.fastq.gz	E3_mit1_Q_U_A2_S96_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_U_B2	E3_mit1_Q_U_B2_S97_R1_001.fastq.gz	E3_mit1_Q_U_B2_S97_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_Q_U_C2	E3_mit1_Q_U_C2_S98_R1_001.fastq.gz	E3_mit1_Q_U_C2_S98_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_R_A2	E3_mit1_T_R_A2_S87_R1_001.fastq.gz	E3_mit1_T_R_A2_S87_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_R_B2	E3_mit1_T_R_B2_S88_R1_001.fastq.gz	E3_mit1_T_R_B2_S88_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_R_C2	E3_mit1_T_R_C2_S89_R1_001.fastq.gz	E3_mit1_T_R_C2_S89_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_U_A2	E3_mit1_T_U_A2_S90_R1_001.fastq.gz	E3_mit1_T_U_A2_S90_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_U_B2	E3_mit1_T_U_B2_S91_R1_001.fastq.gz	E3_mit1_T_U_B2_S91_R2_001.fastq.gz	MDS_markers.txt	At_mt1	
+E3_mit1_T_U_C2	E3_mit1_T_U_C2_S92_R1_001.fastq.gz	E3_mit1_T_U_C2_S92_R2_001.fastq.gz	MDS_markers.txt	At_mt1	

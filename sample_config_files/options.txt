@@ -1,0 +1,6 @@
+reads	min_optical_dist=5000
+reads	min_tile_edge_dist=2000
+reads	delete_intermediate_fastqs
+reads	cutadapt_cores=1
+families	exclude_n_reads
+variants	min_base_agreement=1
