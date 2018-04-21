@@ -17,6 +17,11 @@ For processing multiple libraries in batches, the following wrapper script can b
 - `MDS_process_pipeline.pl`
  
 
+## Dependencies
+
+- bbmerge.sh in the [BBMap package](https://sourceforge.net/projects/bbmap/)
+- [cutadapt](http://cutadapt.readthedocs.io/en/stable/guide.html)
+- [sloan.pm Perl module](https://github.com/dbsloan/perl_modules)
 
 ## MDS_process_pipeline.pl
 
