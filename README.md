@@ -17,7 +17,15 @@ For processing multiple libraries in batches, the following wrapper script can b
 - `MDS_process_pipeline.pl`
  
 
+
+The following script can take output files from multiple libraries and produce summary output based by variant frequency by read-family size, SNP type, and nucleotide position.
+
+- `MDS_aggregate_variants.pl`
+
+
 ## Dependencies
+
+These scripts have been successfully run on Linux (CentOS6) and Max OSX (10.13) systems. They require the following.
 
 - bbmerge.sh in the [BBMap package](https://sourceforge.net/projects/bbmap/)
 - [cutadapt](http://cutadapt.readthedocs.io/en/stable/guide.html)
@@ -386,4 +394,67 @@ Usage: `perl MDS_process_variants.pl [options/arguments]`
          	--min_base_agreement=1 \
          	--input=INPUT_READ_FAMS_FILE.txt --output=my_output
        	
+
+## MDS_aggregate_variants.pl
+
+Usage: `perl MDS_aggregate_variants.pl [options/arguments]`
+   
+   This script takes variant output files from one or more libraries analyzed with 
+   MDS_process_variants.pl and summarizes various statistical measures, including 
+   variant frequencies by read-family size, mutation spectrum, and position specific
+   variant counts.
+   
+   REQUIRED ARGUMENTS
+   
+   Input Libraries. Input files must be specified in one of two ways. The output 
+   basename (but not full ouptut filenames) from MDS_process_families.pl
+
+         --input_lib_list
+         Inputs can be provided with in a simple text file (one library per line) with
+         this option.
+         
+         Or they can be provided as a space-delimited list at the end of the command
+         line call.   
+ 
+    Family Size Threshold for Variant Frequencies
+   
+         --fam_size_freqs
+         A cutoff for read family size. All families of this size and larger will be 
+         pooled for reporting variant frequencies.
+        
+    Family Size Threshold for Variant Sprectrum and Position-Specific Information
+   
+         --fam_size_spect
+         A cutoff for read family size. All families below this size will be discarded
+         for variant-spectrum and position-distribution summaries.
+
+   Output Name
+   
+         --output [default: input file name]
+         Base name for all output files (additional extensions will be added)
+
+
+   OPTIONAL ARGUMENTS
+
+   Include multi-SNP families
+   
+         --include_multisnps
+         Add this flag to include read families that have multiple variants relative to 
+         the reference. By default, only families with a single SNP are used. If this 
+         option is specified, mutliSNP families should have been manually inspected to
+         confirm that they are genuine.
+
+
+
+   EXAMPLES
+   
+         perl MDS_aggregate_variants.pl \
+         	--input_lib_list=INPUT_LIB_LIST_FILE \
+         	--fam_size_freqs=5 --fam_size_spect=5 \
+         	--output=my_output 
+
+         perl MDS_aggregate_variants.pl \
+         	--fam_size_freqs=5 --fam_size_spect=5 \
+         	--output=my_output \
+         	Lib1 Lib2 Lib3 ...
 
